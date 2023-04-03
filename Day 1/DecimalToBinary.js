@@ -6,7 +6,7 @@ function decimalToBinary(number){
     let reverseBinary= "";
 
 
-    while (number>0){
+    while (number>1){
          binary= binary+ ""+number%2;
         number=Math.trunc(number/2);
     }
@@ -28,4 +28,4 @@ reverseBinary = reverseBinary+binary[i];
     
 
     }
-  console.log("Binary:"+ decimalToBinary(52));
+  console.log("Binary:"+ decimalToBinary(10));
